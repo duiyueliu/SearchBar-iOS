@@ -7,23 +7,32 @@
 //
 
 #import "ViewController.h"
+#import "MKFighter.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) NSMutableArray *fightersArray;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
+#pragma mark - UIViewController
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    
+}
+
+
+
+
 
 @end

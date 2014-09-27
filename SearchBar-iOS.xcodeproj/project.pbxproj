@@ -22,6 +22,7 @@
 		75A7C6CC19D6CEF300AD9BF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A7C6AB19D6CEF300AD9BF1 /* UIKit.framework */; };
 		75A7C6D419D6CEF300AD9BF1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75A7C6D219D6CEF300AD9BF1 /* InfoPlist.strings */; };
 		75A7C6D619D6CEF300AD9BF1 /* SearchBar_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7C6D519D6CEF300AD9BF1 /* SearchBar_iOSTests.m */; };
+		75A7C6E119D6EFBE00AD9BF1 /* MKFighter.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A7C6E019D6EFBE00AD9BF1 /* MKFighter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +48,16 @@
 		75A7C6B719D6CEF300AD9BF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		75A7C6BA19D6CEF300AD9BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		75A7C6BD19D6CEF300AD9BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		75A7C6BF19D6CEF300AD9BF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		75A7C6C019D6CEF300AD9BF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75A7C6BF19D6CEF300AD9BF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "SearchBar-iOS/ViewController.h"; sourceTree = "<group>"; };
+		75A7C6C019D6CEF300AD9BF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "SearchBar-iOS/ViewController.m"; sourceTree = "<group>"; };
 		75A7C6C219D6CEF300AD9BF1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		75A7C6C819D6CEF300AD9BF1 /* SearchBar-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SearchBar-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A7C6C919D6CEF300AD9BF1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		75A7C6D119D6CEF300AD9BF1 /* SearchBar-iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SearchBar-iOSTests-Info.plist"; sourceTree = "<group>"; };
 		75A7C6D319D6CEF300AD9BF1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75A7C6D519D6CEF300AD9BF1 /* SearchBar_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchBar_iOSTests.m; sourceTree = "<group>"; };
+		75A7C6DF19D6EFBE00AD9BF1 /* MKFighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKFighter.h; sourceTree = "<group>"; };
+		75A7C6E019D6EFBE00AD9BF1 /* MKFighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKFighter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,11 @@
 		75A7C69B19D6CEF300AD9BF1 = {
 			isa = PBXGroup;
 			children = (
+				75A7C6DF19D6EFBE00AD9BF1 /* MKFighter.h */,
+				75A7C6E019D6EFBE00AD9BF1 /* MKFighter.m */,
+				75A7C6B919D6CEF300AD9BF1 /* Main_iPhone.storyboard */,
+				75A7C6BF19D6CEF300AD9BF1 /* ViewController.h */,
+				75A7C6C019D6CEF300AD9BF1 /* ViewController.m */,
 				75A7C6AD19D6CEF300AD9BF1 /* SearchBar-iOS */,
 				75A7C6CF19D6CEF300AD9BF1 /* SearchBar-iOSTests */,
 				75A7C6A619D6CEF300AD9BF1 /* Frameworks */,
@@ -116,10 +124,7 @@
 			children = (
 				75A7C6B619D6CEF300AD9BF1 /* AppDelegate.h */,
 				75A7C6B719D6CEF300AD9BF1 /* AppDelegate.m */,
-				75A7C6B919D6CEF300AD9BF1 /* Main_iPhone.storyboard */,
 				75A7C6BC19D6CEF300AD9BF1 /* Main_iPad.storyboard */,
-				75A7C6BF19D6CEF300AD9BF1 /* ViewController.h */,
-				75A7C6C019D6CEF300AD9BF1 /* ViewController.m */,
 				75A7C6C219D6CEF300AD9BF1 /* Images.xcassets */,
 				75A7C6AE19D6CEF300AD9BF1 /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 				75A7C6C119D6CEF300AD9BF1 /* ViewController.m in Sources */,
 				75A7C6B819D6CEF300AD9BF1 /* AppDelegate.m in Sources */,
 				75A7C6B419D6CEF300AD9BF1 /* main.m in Sources */,
+				75A7C6E119D6EFBE00AD9BF1 /* MKFighter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +298,7 @@
 				75A7C6BA19D6CEF300AD9BF1 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
+			path = "SearchBar-iOS";
 			sourceTree = "<group>";
 		};
 		75A7C6BC19D6CEF300AD9BF1 /* Main_iPad.storyboard */ = {
